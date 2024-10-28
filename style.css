@@ -1,0 +1,357 @@
+#palace{
+    text-align: center;
+    color: red;
+    background-color: cyan;
+    
+}
+#logo{
+    margin-left: 46%;
+    mix-blend-mode: darken;
+}
+.side{
+    color:darkblue;
+    font-size: 25px;
+}
+a{
+    padding: 80px;
+}
+#cards{
+    margin-top: 20px;
+}
+.col-md-3{
+    margin:55px;
+}
+#offer{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+#ad{
+    margin-left: 50px;
+    color:lightgreen;
+}
+.amt{
+    color: red;
+
+}
+.del{
+    color:darkgreen;
+}
+.card-img-top1{
+    padding: 10%;
+}
+#sandal{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    padding: 45px
+}
+ #off{     
+    text-align: center;
+    color:orangered;
+    padding: 45px;
+    text-decoration: underline;
+}
+.dewali{
+    text-align: center;
+    color: gold;
+    text-decoration: underline dotted;
+}
+.oct{
+    text-align: center;
+    color: crimson;
+}
+.soon{
+    margin-top: 30%;
+    padding-left: 20%;
+    color:red;
+    text-decoration: underline ;
+    font-size: 30px;
+}
+.upto{
+    text-align: center;
+    color: darkred;
+}
+#buy{
+    margin-left: 45%;
+    margin-top: 30px;
+    color: red;
+}
+#stock{
+    text-align: center;
+    padding: 45px;
+    color: blue;
+    text-decoration: underline;
+}
+.card-text6{
+    color: cornflowerblue;
+}
+.coming{
+    color: rgb(70, 116, 1);
+}
+#related{
+   text-align: center;
+   padding: 45px;
+   text-decoration: underline;
+
+}
+.title{
+    color: darkmagenta;
+}
+.title1{
+    color: darkorange;
+}
+.title3{
+    color: darkturquoise;
+}
+#spl{
+    text-align: center;
+    text-decoration: underline dotted;
+    color: darkmagenta;
+    padding: 45px;
+    
+}
+.sbi{
+    color: forestgreen
+}
+.arrival{
+    color: blue;
+    text-decoration: underline dotted;
+    
+}
+.arrival1{
+    color: cadetblue;
+    text-decoration: underline;
+}
+#now{
+    margin-top: 28%;
+    margin-left: 42%;
+    font-size: 10px;
+}
+#adidas{
+    text-align: center;
+    padding: 45px;
+    color: indigo;
+    text-decoration: underline;
+}
+#video{
+    margin-left: 50px;
+}
+#last{
+    text-align: center;
+    padding: 25px;
+    text-decoration: underline;
+}
+.us{
+    text-align: center;
+    text-decoration: underline;
+}
+.product{
+    background-color: black;
+}
+.last{
+    margin-left: 10%;
+    color:  blue;
+    padding: 20px;
+}
+.about{
+    text-align: center;
+    text-decoration: underline;
+    color: crimson;
+    padding: 40px;
+}
+.history{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.shoe{
+    color: rgb(243, 186, 186);
+}
+
+.head{
+    margin-top: 80%;
+    color: grey;
+}
+.td{
+    color: darkblue;
+    text-decoration: underline;
+}
+.td1{
+    color: fuchsia;
+    text-decoration: underline;
+}
+.top{
+    color: darkgreen;
+    text-align: center;
+    text-decoration: underline;
+}
+.sand{
+    color: blueviolet;
+    text-align: center;
+    text-decoration: underline;
+}
+.formal{
+    text-align: center;
+    color: rgb(124, 55, 23);
+    text-decoration: underline;
+    padding: 45px;
+}
+.titlef{
+    color: darkgreen;
+    text-decoration: underline;
+
+}
+.title8{
+    color: fuchsia;
+}
+.form{
+    text-align: center;
+    padding: 45px;
+    color: navy;
+    text-decoration: underline;
+}
+.name{
+    color: rgb(196, 190, 190);
+    text-decoration: underline;
+    font-size: 20px;
+}
+.male{
+    color: white;
+}
+.uss{
+    color: rgb(2, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+}
+#cd{
+    margin-left: 10px;
+}
+.m{
+    margin-top: 40px;
+}
+.mens{
+    text-align: center;
+}
+.page{
+    margin-left: 42%;
+}
+.boots{
+    display:inline-flex
+}
+.worn{
+    margin-left: 80px;
+}
+.anniverasry{
+    display: flex;
+}
+#sil{
+    margin-top: 40px;
+}
+#data{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blueviolet;
+}
+.ss:hover{
+    box-shadow: 10px 10px 10px 5px red;
+    transform: scale(1.1);
+}
+.m:hover{
+    box-shadow:10px 10px 10px red;
+    transform: scale(1.15);
+    border-radius: 20px;
+}
+.reclear:hover{
+    box-shadow: 10px 10px 10px 5px blue;
+    transform: scale(1.0);
+}
+.reclear{
+    padding: 25px;
+}
+#wow:hover{
+    transform: scale(1.15);
+}
+.card10:hover{
+     box-shadow: 10px 10px 10px rgb(197, 59, 197);
+     transform: scale(1.0);
+}
+.card11{
+    padding: 30px;
+}
+.card11:hover{
+    box-shadow: 15px 10px 10px darkred;
+    transform: scale(1.10);
+}
+#newss:hover{
+     transform: scale(1.12);
+     box-shadow: 20px 10px 10px darkslateblue;
+}
+.card12:hover{
+    transform: scale(1.11);
+    box-shadow: 15px 10px 10px rgb(16, 121, 153);
+}
+.src{
+    margin-left: 40%;
+}
+.src1{
+    margin-left: 42%;
+    padding: 40px;
+    color: violet;
+    text-decoration: underline
+}
+.utube{
+    color: orange;
+    margin-left: 30%;
+}
+#in{
+    padding: 20px;
+}
+.src2{
+    margin-left: 42%;
+}
+.card14:hover{
+    box-shadow: 15px 10px 10px darkmagenta;
+    transform: scale(1.1);
+}
+.card15:hover{
+    box-shadow: 15px 10px 10px  rgb(40, 26, 134) ;
+    transform: scale(1.1);
+}
+.src3{
+    margin-left: 42%;
+    padding: 30px;
+}
+.card18:hover{
+    box-shadow: 15px 10px 10px rgb(23, 2, 165);
+    
+}
+.card18{
+    padding: 30px;
+}
+.card20:hover{
+    box-shadow: 15px 10px 10px darkred;
+    transform: scale(1.12);
+}
+#navbars{
+    background-color:rgb(7, 7, 119);
+}
+.card21{
+    padding: px;
+}
+.card22{
+    text-align: center;
+}
+.src4{
+    margin-left: 43%;
+    mix-blend-mode: darken;
+    padding: 20px;
+}
+.in{
+    text-decoration: none;
+}
+
+

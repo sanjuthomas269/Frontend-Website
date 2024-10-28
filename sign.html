@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="trending.html">
+    <link rel="stylesheet" href="formal.html">
+    <link rel="stylesheet" href="sports.html">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<body style="background-image: url(https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+  <div>
+  <img id="logo" src="https://media.istockphoto.com/id/1320637680/vector/fast-shoes-logo-template-design.jpg?s=612x612&w=0&k=20&c=W0_unOy4G5mqeim5gVDGh1J4MaiW3-0k6GQeh6XGs9A=" alt="" height="150px">
+   <h1 id="palace">MENS FOOTWEAR PALACE</h1>
+   </div>
+   <!-----------------navbar-------------------------->
+
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div  id="navbars" class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a id="data" class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i> HOME</a>
+          </li>
+          <li class="nav-item">
+            <a id="data" class="nav-link" href="about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="data" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-list"></i> MODELS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a id="data1" class="dropdown-item" href="trending.html">TRENDING</a></li>
+              <li><a id="data1" class="dropdown-item" href="formal.html">FORMAL</a></li>
+              <li><hr id="data1" class="dropdown-divider"></li>
+              <li><a id="data1" class="dropdown-item" href="sports.html">SPORTS</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <ul>
+            <li class="nav-item">
+              <a class="in" style="color:white"  href="sign.html"><i class="fa-regular fa-user"></i> SIGN IN</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+<!----------------------------------------sigin--------------------------------------------->
+<h2 class="form">REGISTRATION FORM</h2>
+<center>
+  <form action="index.html" onsubmit="return check()" >
+    <table border="6px" cellpadding="15px" cellspacing="12px">
+        <tr>
+            <td><label class="name" for="">FIRST NAME :</label></td>
+            <td><input type="text" id="name" placeholder="PLEASE ENTER YOUR NAME "></td>
+        </tr>
+        <tr>
+            <td><label class="name" for="">LAST NAME :</label></td>
+            <td><input type="text" placeholder="PLEASE ENTER YOUR LAST NAME"></td>
+        </tr>
+        <tr>
+            <td><label class="name" for="">GENDER :</label></td>
+            <td>
+                <input class="male" type="radio" name="GOWTHAM">MALE
+                <input class="male" type="radio" name="GOWTHAM">FEMALE
+            </td>
+        </tr>
+        <tr>
+          <td><label class="name" for="">ADDRESS :</label></td>
+          <td><textarea name="" id="" rows="3" placeholder="ENTER YOUR ADDRESS"></textarea></td>
+        </tr>
+        <tr>
+          <td><label class="name" for="">COUNTRY :</label></td>
+          <td><button>INDIA</button></td>
+        </tr>
+        <tr>
+            <td><label class="name" for="">MOBILE NO :</label></td>
+            <td><input type="number" id="mob" placeholder="ENTER YOUR PHN NO"></td>
+        </tr>
+        <tr>
+            <td><label class="name" for="">E-MAIL ID :</label></td>
+            <td><input type="text" id="www" placeholder="ENTER YOUR EMAIL ID"></td>
+        </tr>
+        <tr>
+          <td><input class="name" type="submit"></td>
+          <td><button class="name">RESET</button></td>
+        </tr>
+       
+    </table>
+  </form>
+</center><br><br>
+<!--------------------------------js--------------------------------->
+<script>
+  function check(){
+    x=document.getElementById("name").value
+      y=/^([a-z]{5})+$/
+
+      if(!y.test(x)){
+          alert("enter your name")
+          return false;
+      }
+
+      a=document.getElementById("mob").value
+      v=/^([0-9]{10})+$/
+
+      if(!v.test(a)){
+          alert("please enter phn no")
+          return false;
+      }
+
+      e=document.getElementById("www").value;
+      m=/^([a-z]{6})+\@([a-z]{5})+\.([a-z]{3})+$/;
+      <i class="fa-solid fa-house"></i>
+      if(!m .test(e)){
+          alert("please enter your mail id");
+          return false;
+      }
+  }
+</script>
+<!---------------------footer----------------------------------------------->
+<img class="src3" src="https://thewoodenloft.com/assets/img/contact-us-header.png" alt="" width="270px" height="130px"><br><br>
+<div class="product">
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <a style="color: blue;" href=""><i class="fa-solid fa-house"></i> HOME</a><br><br>
+      <p class="last"><i class="fa-solid fa-mobile"></i> PH:+91 84322485</p>
+      <P class="last"> <i class="fa-solid fa-phone"></i> TELE: 044-22458</P>
+       <p class="last"><i class="fa-regular fa-envelope"></i> E-MAIL:Mensfoot@gamil.com</p>
+   </div>
+       <div class="col-md-3">
+        <a style="color: blue;" href="trending.html">PRODUCT</a><br><br>
+        <p class="last"><i class="fa-solid fa-user"></i> CUSTOMER SERVICE</p>
+        <P class="last"><i class="fa-brands fa-product-hunt"></i> BEST PRODUCT</P>
+         <p class="last"><i class="fa-solid fa-book"></i> LEARN</p>
+     </div>
+    <div class="col-md-3">
+      <p class="last"><i class="fa-solid fa-location-dot"></i>LOCATION</p>
+    <iframe class="m" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15663.525747868769!2d76.97582685!3d11.0475151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1729314701499!5m2!1sen!2sin" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+   <div class="utube">
+    <i id="in" style="color: rgb(236, 180, 74);" class="fa-brands fa-instagram"> insta</i>
+    <i id="in" style="color: red;" class="fa-brands fa-youtube">youtube</i>
+    <i id="in" style="color: blue;" class="fa-brands fa-facebook">facebook</i>
+    <i id="in" style="color: white;" class="fa-brands fa-square-twitter">X</i>
+   </div>
+  </div>
+ </div>
+</div>
+  </body>
+  </html>
